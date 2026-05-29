@@ -8,12 +8,10 @@ function Contact() {
   return (
     <>
       (
-      <div>
-        <Navbar>
-          <Logo emoji="🟡" name="Mourad MEKNIOUI" />
-          <LinkBarCom />
-        </Navbar>
-      </div>
+      <Navbar>
+        <Logo emoji="🟡" name="Mourad MEKNIOUI" />
+        <LinkBarCom />
+      </Navbar>
       <div className={styles.contactPage}>
         <div className={styles.contactContainer}>
           <span className={styles.badge}>CONTACT</span>

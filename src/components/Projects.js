@@ -9,12 +9,10 @@ function Projets() {
     <>
       {" "}
       (
-      <div>
-        <Navbar>
-          <Logo emoji="🟡" name="Mourad MEKNIOUI" />
-          <LinkBarCom />
-        </Navbar>
-      </div>
+      <Navbar>
+        <Logo emoji="🟡" name="Mourad MEKNIOUI" />
+        <LinkBarCom />
+      </Navbar>
       <div className={styles.projectsPage}>
         <div className={styles.projectsContainer}>
           <span className={styles.badge}>MY PROJECTS</span>

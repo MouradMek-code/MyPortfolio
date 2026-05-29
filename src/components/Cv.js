@@ -7,12 +7,11 @@ import LinkBarCom from "./LinkBarCom";
 function Cv() {
   return (
     <>
-      <div>
-        <Navbar>
-          <Logo emoji="🟡" name="Mourad MEKNIOUI" />
-          <LinkBarCom />
-        </Navbar>
-      </div>
+      <Navbar>
+        <Logo emoji="🟡" name="Mourad MEKNIOUI" />
+        <LinkBarCom />
+      </Navbar>
+
       <div className={styles.cvPage}>
         <div className={styles.cvContainer}>
           {/* PROFILE */}
