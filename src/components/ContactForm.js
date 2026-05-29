@@ -19,24 +19,15 @@ const ContactForm = () => {
     for (const [key, value] of formData.entries()) {
       console.log(key, value);
     }
-    setSuccessMessage("");
-    setErrorMessage("");
+
     setIsSending(true);
 
     try {
       await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY);
 
-      setSuccessMessage(
-        "✓ Message sent successfully. I'll get back to you as soon as possible.",
-      );
-
       e.target.reset();
     } catch (error) {
       console.error(error);
-
-      setErrorMessage(
-        "Something went wrong while sending your message. Please try again.",
-      );
     } finally {
       setIsSending(false);
     }
