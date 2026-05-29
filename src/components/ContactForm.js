@@ -11,8 +11,6 @@ const PUBLIC_KEY = "iYHdcaV7mgIjvD6sX";
 
 const ContactForm = () => {
   const [isSending, setIsSending] = useState(false);
-  const [successMessage, setSuccessMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
 
   const handleOnSubmit = async (e) => {
     e.preventDefault();
