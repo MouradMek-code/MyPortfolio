@@ -10,8 +10,7 @@
 .App-momo {
   width: 400px;
   border-radius: 50%; /* makes it round */
-  overflow: hidden; /* keeps image inside the circle */
-  filter: grayscale(100%); /* black and white effect */
+  overflow: hidden; /* keeps image inside the circle */ /* black and white effect */
   margin-right: 15px;
   margin-bottom: 10px;
   height: 500px;
