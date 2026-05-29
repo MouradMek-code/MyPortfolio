@@ -7,6 +7,15 @@ function LinkBarCom() {
         <span>
           <NavLink
             className={styles.linkspan}
+            to="/"
+            style={{ textDecoration: "none" }}
+          >
+            Home |
+          </NavLink>
+        </span>
+        <span>
+          <NavLink
+            className={styles.linkspan}
             to="/cv"
             style={{ textDecoration: "none" }}
           >
