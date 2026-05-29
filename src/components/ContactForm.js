@@ -117,7 +117,12 @@ const ContactForm = () => {
           <div className={styles.formElement}>
             <label htmlFor="project_type">What can I help you with?</label>
 
-            <select id="project_type" name="project_type" defaultValue="">
+            <select
+              className={styles.select}
+              id="project_type"
+              name="project_type"
+              defaultValue=""
+            >
               <option value="" disabled>
                 Select an option
               </option>
@@ -159,11 +164,6 @@ const ContactForm = () => {
           >
             {isSending ? "Sending..." : "Send Message →"}
           </button>
-
-          <p className={styles.footerNote}>
-            Built with React, EmailJS, responsive design, accessibility best
-            practices, and modern UI patterns.
-          </p>
         </form>
       </section>
     </>
