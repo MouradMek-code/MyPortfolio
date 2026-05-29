@@ -3,7 +3,6 @@ import styles from "./Contact.module.css";
 import Navbar from "./NavBar";
 import Logo from "./Logo";
 import LinkBarCom from "./LinkBarCom";
-import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
