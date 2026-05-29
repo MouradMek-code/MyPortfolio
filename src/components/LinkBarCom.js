@@ -37,7 +37,7 @@ function LinkBarCom() {
             to="/contact"
             style={{ textDecoration: "none" }}
           >
-            Contact
+            Contact |
           </NavLink>
         </span>
         <span>
@@ -46,7 +46,7 @@ function LinkBarCom() {
             to="/email"
             style={{ textDecoration: "none" }}
           >
-            Contact by Email Form
+            Contact by Email
           </NavLink>
         </span>
       </ul>
