@@ -40,6 +40,15 @@ function LinkBarCom() {
             Contact
           </NavLink>
         </span>
+        <span>
+          <NavLink
+            className={styles.linkspan}
+            to="/email"
+            style={{ textDecoration: "none" }}
+          >
+            Contact by Email Form
+          </NavLink>
+        </span>
       </ul>
     </div>
   );

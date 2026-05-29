@@ -1,5 +1,6 @@
 import "./App.css";
 import Contact from "./components/Contact";
+import ContactForm from "./components/ContactForm";
 import Cv from "./components/Cv";
 import Projets from "./components/Projects";
 import HomePage from "./pages/HomePage";
@@ -13,6 +14,7 @@ function App() {
         <Route path="cv" element={<Cv />} />
         <Route path="projects" element={<Projets />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="email" element={<ContactForm />} />
       </Routes>
     </BrowserRouter>
   );
