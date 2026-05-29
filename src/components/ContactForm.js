@@ -138,7 +138,7 @@ const ContactForm = () => {
           </div>
 
           <div className={styles.formElement}>
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Description</label>
 
             <textarea
               id="message"
@@ -148,14 +148,6 @@ const ContactForm = () => {
               required
             />
           </div>
-
-          {successMessage && (
-            <div className={styles.successMessage}>{successMessage}</div>
-          )}
-
-          {errorMessage && (
-            <div className={styles.errorMessage}>{errorMessage}</div>
-          )}
 
           <button
             type="submit"
