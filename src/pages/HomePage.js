@@ -1,4 +1,3 @@
-import planet from "./planet.svg";
 import Navbar from "../components/NavBar";
 import Logo from "../components/Logo";
 import LinkBarCom from "../components/LinkBarCom.js";
