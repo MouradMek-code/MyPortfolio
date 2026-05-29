@@ -1,0 +1,211 @@
+.projectsPage {
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+
+  padding: 60px 20px;
+}
+
+.projectsContainer {
+  max-width: 1200px;
+
+  margin: auto;
+
+  background: white;
+
+  border-radius: 30px;
+
+  padding: 70px 50px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* TOP */
+
+.badge {
+  display: inline-block;
+
+  background: #f59e0b;
+
+  color: white;
+
+  padding: 8px 18px;
+
+  border-radius: 999px;
+
+  font-size: 14px;
+
+  margin-bottom: 20px;
+}
+
+.projectsContainer h1 {
+  font-size: 52px;
+
+  text-align: center;
+
+  color: #111827;
+
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+
+  color: #6b7280;
+
+  max-width: 700px;
+
+  margin: auto;
+
+  line-height: 1.9;
+
+  margin-bottom: 60px;
+}
+
+/* SECTION */
+
+.section {
+  margin-top: 70px;
+}
+
+.section h2 {
+  font-size: 32px;
+
+  color: #111827;
+
+  margin-bottom: 35px;
+
+  text-align: center;
+}
+
+/* GRID */
+
+.projectsGrid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 25px;
+}
+
+/* CARD */
+
+.card,
+.bigCard {
+  background: linear-gradient(to bottom right, #ffffff, #f9fafb);
+
+  border: 1px solid #ececec;
+
+  border-radius: 24px;
+
+  padding: 35px;
+
+  transition: 0.3s;
+}
+
+.card:hover,
+.bigCard:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card h3,
+.bigCard h3 {
+  font-size: 24px;
+
+  color: #111827;
+
+  margin-bottom: 15px;
+}
+
+.card p,
+.bigCard p {
+  color: #6b7280;
+
+  line-height: 1.8;
+}
+
+.card a {
+  display: inline-block;
+
+  margin-top: 20px;
+
+  color: #f59e0b;
+
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* JOB */
+
+.jobHeader {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.jobHeader span {
+  background: #f59e0b;
+
+  color: white;
+
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  font-size: 14px;
+}
+
+.bigCard h4 {
+  color: #374151;
+
+  margin-bottom: 20px;
+}
+
+/* LIST */
+
+.card ul,
+.bigCard ul {
+  padding-left: 20px;
+
+  margin-top: 20px;
+}
+
+.card li,
+.bigCard li {
+  margin-bottom: 12px;
+
+  line-height: 1.8;
+
+  color: #4b5563;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .projectsContainer {
+    padding: 40px 20px;
+  }
+
+  .projectsContainer h1 {
+    font-size: 38px;
+  }
+
+  .jobHeader {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 10px;
+  }
+}
